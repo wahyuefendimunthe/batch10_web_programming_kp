@@ -1,0 +1,194 @@
+body{
+    background: turquoise;
+    color: white;
+}
+
+
+
+h1{
+    text-align: center;
+}
+
+.box{
+    background: blueviolet;
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+}
+
+.box-dua{
+    background: red;
+    height: 100px;
+    width: 600px;
+    margin-left: 70px;
+}
+
+.box{
+    background: greenyellow;
+    height: 200px;
+    width: 300px;
+    padding: 20px;
+}
+
+.box-dua{
+    background: navy;
+    height: 100px;
+    width: 600px;
+    padding-left: 70px;
+}
+
+
+
+
+
+
+
+
+body{
+    background: turquoise;
+    color: white;
+}
+
+.tulisan_satu{
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    text-align: left;
+    text-decoration: underline;
+}
+
+.tulisan_dua{
+    color: orangered;
+    font-size: 24px;
+    font-style: italic;
+    text-align: right;
+    text-transform: capitalize;
+    text-decoration: overline;
+}
+
+.tulisan_tiga{
+    color: aqua;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+    text-transform: lowercase;
+    text-decoration: line-through;
+    word-spacing: 10px;
+}
+
+.link{
+    font-size: 20pt;
+}
+
+.link:hover{
+    color: red;
+}
+
+.link:link{
+    color: blue;
+}
+
+.link:active{
+    color: green;
+}
+
+.link:visited{
+    background: yellow;
+}
+
+
+
+.tulisan_kiri{
+    text-align: left;
+}
+
+.tulisan_kanan{
+    text-align: right;
+}
+
+.tulisan_tengah{
+    text-align: center;
+}
+
+.tulisan_justify{
+    text-align: justify;
+}
+
+
+.kotak{
+    background: blue;
+    position: absolute;
+    left: 40px;
+    padding: 10px;
+}
+
+.kotak2{
+    background: green;
+    position: relative;
+    left: 40px;
+    padding: 10px;
+}
+
+.kotak3{
+    background: red;
+    position: static;
+    left: 40px;
+    padding: 10px;
+}
+
+.kotak4{
+    background: hotpink;
+    position: fixed;
+    left: 40px;
+    padding: 10px;
+}
+
+#garis_1{
+    border-style: solid;
+}
+
+#garis_2{
+    border-style: dotted;
+}
+
+#garis_3{
+    border-style: dashed;
+}
+
+#garis_4{
+    border-style: double;
+}
+
+#garis_5{
+    border-style: groove;
+}
+
+#garis_6{
+    border-style: inset;
+}
+
+#garis_7{
+    border-style: outset;
+}
+
+#garis_8{
+    border-style: ridge;
+}
+
+
+
+h1{
+    text-align: center;
+}
+
+ul.transportasi{
+    list-style-type: square;
+}
+
+ul.lokasi{
+    list-style-type: circle;
+}
+
+ol.merk{
+    list-style-type: upper-roman;
+}
