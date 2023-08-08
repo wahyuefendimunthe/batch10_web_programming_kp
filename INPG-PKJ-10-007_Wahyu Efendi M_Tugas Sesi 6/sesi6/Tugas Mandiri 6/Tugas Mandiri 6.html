@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tugas Mandiri 6</title>
+</head>
+
+<body>
+
+    <p class="paragraf">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Quo quaerat recusandae qui ullam eaque cumque ea fugit,
+        debitis commodi ipsum illo dolorum consequatur sed laudantium suscipit quis magni,
+        maiores in?</p>
+
+        <h1>Aplikasi Ubah Warna</h1>
+        <label>Warna Latar: </label>\
+        <input type="color" id="bg-color" />
+        <br>
+        <label>Warna teks: </label>
+        <input type="color" id="text-color" />
+        
+    <script>
+        var bgcolor = document.getElementById('bg-color');
+        var txtColor = document.getElementById('text-color');
+
+        bgcolor.addEventListener("change", (event) => {
+            document.body.style.backgroundColor = bgcolor.value;
+        });
+
+        txtColor.addEventListener("change", (event) => {
+            document.body.style.color = txtColor.value;
+        });
+    </script>
+
+</body>
+
+</html>
