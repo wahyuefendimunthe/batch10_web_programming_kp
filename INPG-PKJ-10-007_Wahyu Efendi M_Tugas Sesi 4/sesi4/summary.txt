@@ -1,0 +1,68 @@
+
+
+langkah langkah berpikir secara logika (algoritma)
+
+step > menggunakan komputer sehari-hari :
+- menekan tombol on/off (power)
+- menunggu proses booting
+- memasukan password
+- membuka aplikasi yang dibutuhkan
+    - kemudian bekerja sesuai aplikasi tersebut.
+
+membuat algoritma >
+by case : ngoding dulu, baru revisi
+
+- create sketsa (alur, langkah, kebutuhan, dll)
+
+jika nilai mahasiswa lebih dari 60 maka lulus
+jika tidak maka tidak lulus
+
+kelulusan mahasiswa :
+parameter ?
+nilai
+if nilai >= 60 && <= 100 maka : lulus
+else : tidak lulus
+
+algoritma :
+input nilai 1
+input nilai 2
+
+pseudocode :
+input nilai 1 (first)
+input nilai 2 (second)
+hasil = input 1 + input 2
+output hasil
+
+contoh :
+
+if (nilai >= 60) ? lulus : tidak lulus
+
+looping / perulangan
+
+nilai = 1
+kita mw hitung dari 1 s.d 10
+
+for (nilai = 1; nilai <= 10; nilai++) {
+    console.log(nilai)
+}
+
+----
+
+tugas mandiri sesi 4
+
+1. tulis judul algoritma
+2. tulis input (untuk menghitung luas dan keliling lingkaran)
+3. tulis (phi=3.14) (phi adalah 3.14) hasil kali phi dengan jari-jari kuadrat
+    > langkah 1: masukan phi
+    > langkah 2: masukan jari-jari
+    > langkah 3: hitung luas lingkaran
+    > langkah 4: tampilkan luas lingkaran
+4. tulis instruksi (untuk menampilkan hasil kalkulasi luas dan keliling lingkaran)
+
+## algoritma
+contoh :
+
+1. Judul Algoritma : Menghitung luas dan keliling lingkaran
+2. input: 
+3.
+4.
